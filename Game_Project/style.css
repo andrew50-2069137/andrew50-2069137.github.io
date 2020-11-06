@@ -1,0 +1,42 @@
+body {
+  background-image: url('Background.jpg');
+}
+pre{
+    color: white;
+    font-size: 17px;
+}
+h1{
+    color: red;
+}
+.column {
+    float: left;
+    width: 7%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  img{
+    width: 100px;
+    height:100px;
+    border: none;
+  }
+h2{
+    color: yellow;
+    font-size: 15px;
+}
+h3{
+    color: rgb(255, 0, 234);
+    font-size: 30px;
+    text-align: center;
+}
+
+#game {
+  display: block;
+  margin: auto;
+}
